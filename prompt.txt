@@ -1,0 +1,18 @@
+I have joined this company and i believe that the claim settlement process is biased. I am attaching one dataset for your review but we need to attain the following objectives:
+
+we need to perform descriptive analysis on cross - tabulation data against policy status.
+we need to apply diagnostic analysis on the data to prob more on biased behaviour of claim settlement , it can be age wise , income wise, team wise. Do a depth analysis for the same.
+we need to apply super learning - classification algorithms like KNN, decision tree, random forest and gradient bosstedand for that we should also do proper feature engineering before we do data training on these algorithms.
+Plot the training testing accuracy at precision recall F1 score of all the algorithms along with the ROC curve to check the stability of the models.Plot confusion matrix also for all algorithms.
+Provide findings.
+Help me in performing the above analysis using Stremlit dashboard that i can run on streamlit server from github.
+
+make sure to include-
+a.Cross-Tabulations vs Purchase Status
+b.diagnostic bias analysis with 
+1. Box plot: Revenue distribution by Device Type, split by Purchase Status (hue)
+2. Violin plot: Pages Viewed by User Type, split by Purchase Status (split=True)
+3. Box plot: Discount Percent by Price Tier, split by Purchase Status
+4. Bar plot: Purchase rate by Marketing Channel (map 0-5 to Organic, Email, Social, Paid Ads, Referral, Direct)
+5. Scatter plot: Time on Site vs Pages Viewed (sample 2000 points), colored by Purchase Status
+6. Cross-tab bar chart: Cart Abandoned (0/1) vs Purchase Status (percentage)
